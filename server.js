@@ -14,7 +14,7 @@ app.disable('x-powered-by');
 
 // Connection URI
 const url = 'mongodb+srv://ajaykumardrb:BXFljrgrnMqGDVRj@goldratecalculator.3twdz5b.mongodb.net/?retryWrites=true&w=majority&appName=GoldRateCalculator'
-const dbName = 'GoldRateCalculator';
+const dbName = 'Dictionary';
 
 // Registration endpoint
 app.post('/registerUser', async (req, res) => {
